@@ -24,9 +24,12 @@ Ensure you have the following dependencies installed before running the script:
 ```sh
 pip install python-digitalocean
 pip install python-dotenv
+```
 
 Create a Digital Ocean account to obtain an API key. Then, create a .env file in the same directory as the script and add your API key:
 
-`DIGITALOCEAN_API_TOKEN=Your_API_Token`
+```sh
+// .env
+DIGITALOCEAN_API_TOKEN=Your_API_Token
 
 ```
